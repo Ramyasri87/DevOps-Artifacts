@@ -9,7 +9,7 @@ import org.jenkinsci.plugins.workflow.actions.ErrorAction
 // Get information about all stages, including the failure cases
 // Returns a list of maps: [[id, failedStageName, result, errors]]
 @NonCPS
-List<Map> getStageResults( RunWrapper build ) {
+/*List<Map> getStageResults( RunWrapper build ) {
 
     // Get all pipeline nodes that represent stages
     def visitor = new PipelineNodeGraphVisitor( build.rawBuild )
@@ -28,13 +28,13 @@ List<Map> getStageResults( RunWrapper build ) {
             errors: errors
         ]
     }
-}
+} */
 
 // Get information of all failed stages
-@NonCPS
+/*@NonCPS
 List<Map> getFailedStages( RunWrapper build ) {
     return getStageResults( build ).findAll{ it.result == 'FAILURE' }
-}
+}*/
 
 /////// ******************************* Code for fectching Failed Stage Name ******************************* ///////
 

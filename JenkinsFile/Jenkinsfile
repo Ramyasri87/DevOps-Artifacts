@@ -1,4 +1,4 @@
-@Library('ewb-t24-shared-libraries') _
+//@Library('ewb-t24-shared-libraries') _
 
 /////// ******************************* Code for fectching Failed Stage Name ******************************* ///////
 import io.jenkins.blueocean.rest.impl.pipeline.PipelineNodeGraphVisitor
